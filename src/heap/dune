@@ -12,7 +12,8 @@
  (preprocess
   (pps ppx_deriving.std visitors.ppx))
  (libraries lz4 utils_core)
- (js_of_ocaml (javascript_files hh_shared.js)))
+ (js_of_ocaml
+  (javascript_files hh_shared.js)))
 
 (rule
  (target heap_libc_flags.txt)

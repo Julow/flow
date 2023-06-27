@@ -2,11 +2,7 @@
  (name typing_tests)
  (modules
   (:standard \ typed_ast_test))
- (libraries
-  ounit2
-  flow_flowlib
-  flow_typing
-  heap_shared_mem)
+ (libraries ounit2 flow_flowlib flow_typing heap_shared_mem)
  (action
   (run %{test} -runner sequential)))
 

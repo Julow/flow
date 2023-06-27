@@ -2,4 +2,3 @@
  (name flow_common_test_utils)
  (wrapped false)
  (libraries flow_commands_utils flow_config))
-

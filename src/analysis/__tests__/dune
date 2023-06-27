@@ -8,7 +8,4 @@
  (name analysis_tests)
  (modules
   (:standard \ test_utils))
- (libraries
-  ounit2
-  flow_analysis
-  flow_analysis_test_utils))
+ (libraries ounit2 flow_analysis flow_analysis_test_utils))

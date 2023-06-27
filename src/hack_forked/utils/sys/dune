@@ -5,7 +5,8 @@
  (foreign_stubs
   (language c)
   (names gc_profiling handle_stubs nproc sysinfo))
- (js_of_ocaml (javascript_files handle_stubs.js nproc.js sysinfo.js)))
+ (js_of_ocaml
+  (javascript_files handle_stubs.js nproc.js sysinfo.js)))
 
 (dirs
  (:standard __tests__))

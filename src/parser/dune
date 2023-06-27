@@ -11,11 +11,12 @@
 ; dune build ./libflowparser.exe.o
 
 (executable
-  (name libflowparser)
-  (modes (native object))
-  (modules libflowparser)
-  (flags (-runtime-variant=_pic))
-  (libraries flow_parser))
+ (name libflowparser)
+ (modes
+  (native object))
+ (modules libflowparser)
+ (flags (-runtime-variant=_pic))
+ (libraries flow_parser))
 
 (library
  (name flow_parser_js)

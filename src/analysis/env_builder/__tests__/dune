@@ -14,10 +14,7 @@
  (inline_tests)
  (flags
   (:standard -w -40))
- (libraries
-  flow_analysis_test_utils
-  flow_env_builder
-  flow_name_resolver)
+ (libraries flow_analysis_test_utils flow_env_builder flow_name_resolver)
  (preprocess
   (pps ppx_expect)))
 
@@ -27,9 +24,6 @@
  (inline_tests)
  (flags
   (:standard -w -40))
- (libraries
-  flow_analysis_test_utils
-  flow_env_builder
-  flow_name_resolver)
+ (libraries flow_analysis_test_utils flow_env_builder flow_name_resolver)
  (preprocess
   (pps ppx_expect)))

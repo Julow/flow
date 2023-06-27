@@ -4,4 +4,5 @@
  (flags
   (:standard -w -40))
  (inline_tests)
- (preprocess (pps ppx_expect)))
+ (preprocess
+  (pps ppx_expect)))
